@@ -297,7 +297,8 @@ flex-direction: column;
 .blog-post {
   display: flex;
   flex-direction: column;
-    width: 35vw;
+
+
 
 }
 .blog-post h3 {
@@ -308,15 +309,23 @@ flex-direction: column;
   padding: 0;
 }
 .blog-post-section {
-  grid-gap: 1em;
+  grid-gap: 2em;
   display: grid;
-  grid-template-columns: 1fr;
-  /* margin-left: 10%;
-  margin-right: 10%; */
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  width: 80%;
+
+
+
+
 
 
 }
-
+.blog-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
 
 
 /* dopper projects */
